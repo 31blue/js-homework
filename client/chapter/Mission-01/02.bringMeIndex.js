@@ -9,7 +9,7 @@ function getNumberAtArray(arr, index) {
   if (-1 < index <= arr.length - 1) {
     return arr[index];
   } else {
-    return 'Error!';
+    console.log('Error!');
   }
 }
 

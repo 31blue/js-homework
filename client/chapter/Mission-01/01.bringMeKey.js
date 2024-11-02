@@ -20,7 +20,7 @@ function getValueAtObject(obj, key) {
       console.log('Norway');
       break;
     default:
-      console.log('Error');
+      console.error('Error!');
   }
 }
 

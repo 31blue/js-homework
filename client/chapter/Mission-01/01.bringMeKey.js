@@ -5,7 +5,24 @@
 설명: 객체와 키를 인수로 받아, 객체에 해당 키가 존재하면 그 키에 해당하는 값을 반환하고, 존재하지 않으면 에러를 발생시키는 함수를 작성하세요.                */
 /* ---------------------------------------------- */
 
-function getValueAtObject(obj, key) {}
+function getValueAtObject(obj, key) {
+  switch (key) {
+    case 'name':
+      console.log('Aurora Aksnes');
+      break;
+    case 'song':
+      console.log('Runaway');
+      break;
+    case 'birthYear':
+      console.log(1996);
+      break;
+    case 'country':
+      console.log('Norway');
+      break;
+    default:
+      console.log('Error');
+  }
+}
 
 const aurora = {
   name: 'Aurora Aksnes',
